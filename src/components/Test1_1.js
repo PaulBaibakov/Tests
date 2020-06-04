@@ -14,6 +14,8 @@ export default class Test1_1 extends PureComponent {
 		return (
 			<>
 				Test1_1
+				ID={this.props.match.params.id}
+				Name={this.props.match.params.NAME}
 			</>
 
 		);

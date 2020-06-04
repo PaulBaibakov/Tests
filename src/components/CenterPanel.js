@@ -20,7 +20,7 @@ export default class CenterPanel extends React.Component {
 				
 				<React.Suspense fallback={<p>Loading...</p>}>
 					<Switch>
-						<Route path="/Test1_1" component={Test1_1} />
+						<Route path="/Test1_1/:ID/:NAME" component={Test1_1} />
 						<Route path="/Test1_2" component={Test1_2} />
 					</Switch>
 				</React.Suspense>
