@@ -5,6 +5,13 @@ import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import { exact } from 'prop-types';
 
 const MainComponent = React.lazy(() => import('./components/MainComponent'));
+//import Test0_0 from './components/Test0_0';
+/*
+ReactDOM.render(
+	<Test0_0 />,
+	document.getElementById('root')
+);
+*/
 
 ReactDOM.render((
 	<Router>
